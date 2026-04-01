@@ -337,5 +337,5 @@ def main() -> int:
     finally:
         try:
             app.stop()
-        except Exception:
+        except BaseException:
             pass

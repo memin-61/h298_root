@@ -169,7 +169,10 @@ def windows_set_dhcp(interface: str) -> None:
         "Start-Sleep -Milliseconds 250; "
         "Request-DhcpLease -InterfaceAlias $if -ErrorAction SilentlyContinue | Out-Null"
     )
-    windows_run(["ipconfig", "/renew", interface])
+    try:
+        windows_run(["ipconfig", "/renew", interface], timeout=20)
+    except Exception:
+        pass
 
 
 def windows_add_neighbor(interface: str, address: str, mac: str) -> None:
