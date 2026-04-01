@@ -27,7 +27,7 @@ pip install scapy
 Use Npcap with WinPcap-compatible mode enabled.
 
 ## Network setup
-- Connect the pc with the router's WAN port with an ethernet cable.
+- Connect the router's WAN port to the PC
 
 
 ## Usage
