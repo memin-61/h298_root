@@ -2,7 +2,7 @@
   [ENGLISH](https://github.com/memin-61/h298_root/blob/master/README_eng.md)
 ## Ne işe yarar?
 
-Araç modemideki TR069 protokolünü kullanarak root ve shell kullanıcısını etkinleştirir.
+Araç modemideki TR069 protokolünü kullanarak root ve shell kullanıcılarını etkinleştirir.
 
 Bilgisayarda DHCP server çalıştırarak modemin IP alması sağlanır. CWMP sürecinde gerekli parametrelerin olup olmadığı sorgulanıp modemde varsa uygulanır. En sonunda bilgisayardaki internet ayarları varsayılan ayarlara geri döndürülür.
 
@@ -55,7 +55,7 @@ sendcmd 1 DB set SSHCfg 0 SSH_ProcType 0
 ## Şifre Formatı
 
 - Minimum 8 karakter
-- Minimum 1 sayı
+- Minimum 1 rakam
 - `pass`, `password`, `root`, `admin` gibi ifadeler kabul edilmiyor
 
 ## Not ve Uyarı
