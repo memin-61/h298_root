@@ -20,7 +20,7 @@ pip install scapy
 
 ## Ön hazırlık
 
-Modemin WAN portu üzerinden bilgisayara bağlayın.
+Modemi WAN portu üzerinden bilgisayara bağlayın.
 
 ## Kullanım
 
