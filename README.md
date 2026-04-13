@@ -51,6 +51,7 @@ Modem varsayılan olarak yetkileri kısıtlı SSH verir, bunu aşmak için SSH �
 ```
 sendcmd 1 DB set SSHCfg 0 SSH_Level 1
 sendcmd 1 DB set SSHCfg 0 SSH_ProcType 0
+sendcmd 1 DB save
 ```
 
 ## Şifre Formatı
