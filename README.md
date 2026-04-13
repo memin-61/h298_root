@@ -21,7 +21,8 @@ pip install scapy
 ## Ön hazırlık
 
 Modemin arkasındaki reset tuşuna 5-10 sn basıp resetleyin
-Modemi WAN portu üzerinden bilgisayara bağlayın.
+
+Modemi WAN portu üzerinden bilgisayara bağlayın
 
 ## Kullanım
 
